@@ -3,13 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Cart Qunatity
+    <title> INDIAN GROCERY STORE
     </title>
     <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    <button onclick="
-    console.log(cart);"> show qunatity</button>
+    <h1 class="head">INDIAN GROCERY STORE</h1>
+    <div class="p1" >
+        <pre class="menu">Menu</pre>
+        <img class="pineapple" src="./ASSETS/PINEAPPLE.JPG" alt="PINEAPPLE">
+       
+    
+    <h2>PINEAPPLE</h2> 
+    <pre>    $3/1lb</pre>
+       <button onclick="
+    console.log(cart);"> show quantity</button>
 
     <button onclick="
     cart +=1;
@@ -30,5 +38,63 @@
    <script>
     let cart = 0;   
    </script> 
+</div>
+<div class="p2">
+<img class="mango" src="./ASSETS/mangoes.webp" alt="mangoes">
+
+<H2>MANGOES</H2>     
+<pre> $5/1lb</pre>
+<button onclick="
+console.log(bucket);"> show quantity</button>
+
+<button onclick="
+bucket +=1;
+console.log(bucket);"> add to cart  </button>
+
+<button onclick="bucket = bucket+2;
+console.log(bucket);"> +2</button>
+
+<button onclick="
+bucket = bucket+3;
+console.log(bucket);">+3</button>
+
+<button onclick="
+bucket =0;
+console.log('cart was reset');
+console.log(bucket);">reset</button>
+
+<script>
+let bucket = 0;   
+</script> 
+</div>
+<div class="p3">
+    <img class="grapes" src="./ASSETS/grapes.jpg" alt="grapes">
+   
+    <H2>GRAPES</H2>    
+    <pre>    $3/1lb</pre> 
+    <button onclick="
+    console.log(pocket);"> show quantity</button>
+    
+    <button onclick="
+    pocket +=1;
+    console.log(pocket);"> add to cart  </button>
+    
+    <button onclick="pocket = pocket+2;
+    console.log(cart);"> +2</button>
+    
+    <button onclick="
+    pocket = pocket+3;
+    console.log(pocket);">+3</button>
+    
+    <button onclick="
+    pocket =0;
+    console.log('cart was reset');
+    console.log(pocket);">reset</button>
+    
+    <script>
+    let pocket = 0;   
+    </script>
+    </div>
+
 </body>
 </html>
